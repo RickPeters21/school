@@ -8,4 +8,4 @@ services:
   mywebapp:
     image: aspnetapp:latest
     ports: 
-      - 5000:8080
+      - "5000:80"
