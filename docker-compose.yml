@@ -6,6 +6,6 @@ services:
       - "80:80"
 
   mywebapp:
-    image: myWebApp aspnetapp:latest
+    image: aspnetapp:latest
     ports: 
       - 5000:8080
